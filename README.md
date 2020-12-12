@@ -38,8 +38,10 @@ In your main loop write
 image=pylcanim.lcAnim(fpscount,row)
 ```
 Where 
-```fpscount is an interger which determines how fast your animation should run(0 is fastest and becomes slower increasingly)
+```
+fpscount is an interger which determines how fast your animation should run(0 is fastest and becomes slower increasingly)
 ```
 and
-```row is the row number in which your sprite is situated(default=0 for single line spritesheets)
+```
+row is the row number in which your sprite is situated(default=0 for single line spritesheets)
 ```
