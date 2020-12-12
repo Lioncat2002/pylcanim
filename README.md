@@ -39,7 +39,7 @@ image=pylcanim.lcAnim(fpscount,row)
 ```
 Where 
 ```
-fpscount is an interger which determines how fast your animation should run(0 is fastest and becomes slower increasingly)
+fpscount is an integer which determines how fast your animation should run(0 is fastest and becomes slower increasingly)
 ```
 and
 ```
