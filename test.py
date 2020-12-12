@@ -1,14 +1,14 @@
 import pygame
-import lcanim
+import pylcanimtest as p
 (width,height)=(300,200)
 clock=pygame.time.Clock()
 screen=pygame.display.set_mode((width,height))
 pygame.display.flip()
 running=True
-
+p.init('run.sf')
 while running:
 
-    image =lcanim.lcAnim('run.sf',3,0)
+    image =p.lcAnim(3,0)
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
 
