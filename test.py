@@ -8,7 +8,7 @@ running=True
 
 while running:
 
-    image = lcanim.lcAnim('run.sf',3,0)
+    image =lcanim.lcAnim('run.sf',3,0)
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
 

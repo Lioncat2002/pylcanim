@@ -1,12 +1,12 @@
 import pygame
 import json
-
 pygame.init()
-
-c=0
 fps=0
+c=0
 def lcAnim(sfile,fpslimit=2,animpos=0):
     global c,fps
+    
+    
     fps+=1
     with open(sfile) as f:
         data=json.load(f)
