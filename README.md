@@ -5,3 +5,6 @@
 
 #Installation
 
+```
+pip install pylcanim
+```
