@@ -16,11 +16,17 @@ def init(sfile):
     height = data['textureAtlas']['regionHeight']
    
     img=pygame.image.load(data['textureAtlas']['texture'])
+def getList(d):
+    l=[]
+    for key in d.keys():
+        l.append(key)
+    return l
     
 def lcAnim(fpslimit=2,animpos=0):
     global fps,c
     fps+=1
-    if c>=len(data['cycles']['animation0']['frames']):
+    l=getList(data['cycles'])
+    if c>=len(data['cycles'][l[animpos]]['frames']):
         c=0
     if c<len(data['cycles']['animation0']['frames']):
         img.set_clip(pygame.Rect(data['cycles']['animation0']['frames'][c-1]*width,animpos*height,width,height))  # Locate the sprite you want

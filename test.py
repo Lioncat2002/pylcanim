@@ -1,6 +1,6 @@
 import pygame
-from pylcanim import pylcanim as p
-#import pylcanimtest as p
+#from pylcanim import pylcanim as p
+import pylcanimtest as p
 (width,height)=(300,200)
 clock=pygame.time.Clock()
 screen=pygame.display.set_mode((width,height))
