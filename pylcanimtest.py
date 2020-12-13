@@ -6,26 +6,24 @@ fps=0
 c=0
 data={}
 img=0
+l=[]
 width,height=0,0
 def init(sfile):
-    global data,img,width,height
+    global data,img,width,height,l
     with open(sfile) as f:
         data=json.load(f)
 
     width=data['textureAtlas']['regionWidth']
     height = data['textureAtlas']['regionHeight']
-   
-    img=pygame.image.load(data['textureAtlas']['texture'])
-def getList(d):
-    l=[]
-    for key in d.keys():
+    for key in data['cycles'].keys():
         l.append(key)
-    return l
     
+    img=pygame.image.load(data['textureAtlas']['texture'])
+
 def lcAnim(fpslimit=2,animpos=0):
     global fps,c
     fps+=1
-    l=getList(data['cycles'])
+    
     if c>=len(data['cycles'][l[animpos]]['frames']):
         c=0
     if c<len(data['cycles'][l[animpos]]['frames']):
