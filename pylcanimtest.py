@@ -1,4 +1,3 @@
-#FIle has been named pylcanimtest to avoid conflicts with already installed library during testing
 import pygame
 import json
 pygame.init()
@@ -27,7 +26,7 @@ def lcAnim(fpslimit=2,animpos=0):
     fps+=1
     
     if c>=len(data['cycles'][l[animpos]]['frames']):
-        c=0
+        c=1
     if c<len(data['cycles'][l[animpos]]['frames']):
     
         #img.set_clip(pygame.Rect(data['cycles'][l[animpos]]['frames'][c-1]*width,animpos*height,width,height))  # Locate the sprite you want
