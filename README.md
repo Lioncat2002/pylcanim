@@ -10,15 +10,15 @@ pip install pylcanim
 ```
 ## Downloading SpriteFactory
 
-You can directly download the executable(note: At this point this is windows only)
-From: https://craftworkgames.itch.io/sprite-factory
-Or build it yourself
-From: https://github.com/craftworkgames/SpriteFactory
+<br>You can directly download the executable(note: At this point this is windows only).</br>
+<br>From: https://craftworkgames.itch.io/sprite-factory</br>
+<br>Or build it yourself</br>
+<br>From: https://github.com/craftworkgames/SpriteFactory</br>
 
 ## Using SpriteFactory
 
-You can see this video https://www.youtube.com/watch?v=DnWvmI1qBAs (time stamp in description)
-But the video is not pygame oriented(I will make one about it later)
+<br>You can see this video https://www.youtube.com/watch?v=DnWvmI1qBAs (time stamp in description).</br>
+<br>But the video is not pygame oriented(I will make one about it later)</br>
 
 ## Using the library
 

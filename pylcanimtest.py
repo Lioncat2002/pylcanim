@@ -1,3 +1,4 @@
+#FIle has been named pylcanimtest to avoid conflicts with already installed library during testing
 import pygame
 import json
 pygame.init()
