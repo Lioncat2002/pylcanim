@@ -17,8 +17,8 @@ pip install pylcanim
 
 ## Using SpriteFactory
 
-<br>You can see this video https://www.youtube.com/watch?v=DnWvmI1qBAs (time stamp in description).</br>
-<br>But the video is not pygame oriented(I will make one about it later)</br>
+<br>You can see this video https://youtu.be/mSakKpmBjrg (time stamp in description).</br>
+
 
 ## Using the library
 
