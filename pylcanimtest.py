@@ -28,8 +28,7 @@ def lcAnim(fpslimit=2,animpos=0):
     if c>=len(data['cycles'][l[animpos]]['frames']):
         c=1
     if c<len(data['cycles'][l[animpos]]['frames']):
-    
-        #img.set_clip(pygame.Rect(data['cycles'][l[animpos]]['frames'][c-1]*width,animpos*height,width,height))  # Locate the sprite you want
+        
         img.set_clip(pygame.Rect((c-1)*width,animpos*height,width,height))  # Locate the sprite you want
         draw_me = img.subsurface(img.get_clip())  # Extract the sprite you want
        
